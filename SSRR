@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-10-27 15:44:41
+# 创建时间：2024-02-07 17:35:00
 # 使用模版：V2RaySE 默认模版
-# 节点数量：48
+# 节点数量：32
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,26 +86,17 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"201.58vtg99l.workers.dev_1","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"4c9541c7-5fa1-403c-84af-175e3b25a27f","tls":false,"servername":"201.58vtg99l.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"201.58vtg99l.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"201.58vtg99l.workers.dev_2","type":"vless","server":"104.21.228.181","port":8080,"uuid":"4c9541c7-5fa1-403c-84af-175e3b25a27f","tls":false,"servername":"201.58vtg99l.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"201.58vtg99l.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"201.58vtg99l.workers.dev_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"4c9541c7-5fa1-403c-84af-175e3b25a27f","tls":false,"servername":"201.58vtg99l.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"201.58vtg99l.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"302.j4tccyw7.workers.dev_1","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"b6cdbcb4-fccd-4237-b055-345a06eaa08e","tls":false,"servername":"302.j4tccyw7.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"302.j4tccyw7.workers.dev"}},"client-fingerprint":"随机"}
-  - {"name":"302.j4tccyw7.workers.dev_2","type":"vless","server":"104.21.228.181","port":8080,"uuid":"b6cdbcb4-fccd-4237-b055-345a06eaa08e","tls":false,"servername":"302.j4tccyw7.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"302.j4tccyw7.workers.dev"}},"client-fingerprint":"随机"}
-  - {"name":"302.j4tccyw7.workers.dev_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"b6cdbcb4-fccd-4237-b055-345a06eaa08e","tls":false,"servername":"302.j4tccyw7.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"302.j4tccyw7.workers.dev"}},"client-fingerprint":"随机"}
-  - {"name":"901.dbodanwi.workers.dev_1","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"6f183280-b258-437a-a216-e83f7dece776","tls":false,"servername":"901.dbodanwi.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"901.dbodanwi.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"901.dbodanwi.workers.dev_2","type":"vless","server":"104.21.228.181","port":8080,"uuid":"6f183280-b258-437a-a216-e83f7dece776","tls":false,"servername":"901.dbodanwi.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"901.dbodanwi.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"901.dbodanwi.workers.dev_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"6f183280-b258-437a-a216-e83f7dece776","tls":false,"servername":"901.dbodanwi.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"901.dbodanwi.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"cdn-allxn--b6gaceuorg.l4o117en.workers.dev_1","type":"vless","server":"104.21.228.181","port":8080,"uuid":"aa2dc840-be38-4b4d-a002-ba234999fd55","tls":false,"servername":"cdn-allxn--b6gaceuorg.l4o117en.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn-allxn--b6gaceuorg.l4o117en.workers.dev"}},"client-fingerprint":"随机"}
-  - {"name":"cdn-allxn--b6gaceuorg.l4o117en.workers.dev_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"aa2dc840-be38-4b4d-a002-ba234999fd55","tls":false,"servername":"cdn-allxn--b6gaceuorg.l4o117en.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn-allxn--b6gaceuorg.l4o117en.workers.dev"}},"client-fingerprint":"随机"}
-  - {"name":"cdn-allxn--b6gaceuorg.l4o117en.workers.dev_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"aa2dc840-be38-4b4d-a002-ba234999fd55","tls":false,"servername":"cdn-allxn--b6gaceuorg.l4o117en.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn-allxn--b6gaceuorg.l4o117en.workers.dev"}},"client-fingerprint":"随机"}
-  - {"name":"cdnanycasteuorg.fjacz6xe.workers.dev_1","type":"vless","server":"104.21.228.181","port":8080,"uuid":"79978027-ef16-4137-b18e-905f8c18f845","tls":false,"servername":"cdnanycasteuorg.fjacz6xe.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cdnanycasteuorg.fjacz6xe.workers.dev"}},"client-fingerprint":"随机"}
-  - {"name":"cdnanycasteuorg.fjacz6xe.workers.dev_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"79978027-ef16-4137-b18e-905f8c18f845","tls":false,"servername":"cdnanycasteuorg.fjacz6xe.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cdnanycasteuorg.fjacz6xe.workers.dev"}},"client-fingerprint":"随机"}
-  - {"name":"cdnanycasteuorg.fjacz6xe.workers.dev_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"79978027-ef16-4137-b18e-905f8c18f845","tls":false,"servername":"cdnanycasteuorg.fjacz6xe.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cdnanycasteuorg.fjacz6xe.workers.dev"}},"client-fingerprint":"随机"}
-  - {"name":"cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_1","type":"vless","server":"104.21.228.181","port":8080,"uuid":"c6ec3554-1557-4f50-aae3-09af5315d5ab","tls":false,"servername":"cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"c6ec3554-1557-4f50-aae3-09af5315d5ab","tls":false,"servername":"cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"c6ec3554-1557-4f50-aae3-09af5315d5ab","tls":false,"servername":"cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng1_1","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"046da250-d5ef-4867-9095-302477d54d20","tls":false,"servername":"feng.ipy29c99.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng.ipy29c99.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng1_2","type":"vless","server":"104.21.228.181","port":8080,"uuid":"046da250-d5ef-4867-9095-302477d54d20","tls":false,"servername":"feng.ipy29c99.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng.ipy29c99.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"shuige1_1","type":"vless","server":"104.21.228.181","port":8080,"uuid":"6d1628cb-2fa9-4f6f-82f8-d0896b27b165","tls":false,"servername":"shuige1.g-y0fale.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige1.g-y0fale.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"shuige2_1","type":"vless","server":"104.21.228.181","port":8080,"uuid":"99678074-122c-46db-97fc-80b604c20158","tls":false,"servername":"shuige2.ywfmu-qx.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige2.ywfmu-qx.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"shuige3_1","type":"vless","server":"104.21.228.181","port":8080,"uuid":"3f9d3b52-1bcc-499f-aad0-ba71d6123f8b","tls":false,"servername":"shuige3.cbj2bxt6.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige3.cbj2bxt6.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"shuige1_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"6d1628cb-2fa9-4f6f-82f8-d0896b27b165","tls":false,"servername":"shuige1.g-y0fale.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige1.g-y0fale.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"shuige2_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"99678074-122c-46db-97fc-80b604c20158","tls":false,"servername":"shuige2.ywfmu-qx.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige2.ywfmu-qx.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"shuige3_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"3f9d3b52-1bcc-499f-aad0-ba71d6123f8b","tls":false,"servername":"shuige3.cbj2bxt6.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige3.cbj2bxt6.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"shuige1_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"6d1628cb-2fa9-4f6f-82f8-d0896b27b165","tls":false,"servername":"shuige1.g-y0fale.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige1.g-y0fale.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"shuige2_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"99678074-122c-46db-97fc-80b604c20158","tls":false,"servername":"shuige2.ywfmu-qx.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige2.ywfmu-qx.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"shuige3_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"3f9d3b52-1bcc-499f-aad0-ba71d6123f8b","tls":false,"servername":"shuige3.cbj2bxt6.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige3.cbj2bxt6.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"feng1_1","type":"vless","server":"104.21.228.181","port":8080,"uuid":"046da250-d5ef-4867-9095-302477d54d20","tls":false,"servername":"feng.ipy29c99.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng.ipy29c99.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"feng1_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"046da250-d5ef-4867-9095-302477d54d20","tls":false,"servername":"feng.ipy29c99.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng.ipy29c99.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"feng1_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"046da250-d5ef-4867-9095-302477d54d20","tls":false,"servername":"feng.ipy29c99.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng.ipy29c99.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"feng2_1","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"77f2d54c-f1bd-46ff-af4c-cc44c72fd25e","tls":false,"servername":"feng2.vfl83lnn.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng2.vfl83lnn.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"feng2_2","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"77f2d54c-f1bd-46ff-af4c-cc44c72fd25e","tls":false,"servername":"feng2.vfl83lnn.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng2.vfl83lnn.workers.dev"}},"client-fingerprint":"randomized"}
@@ -122,42 +113,26 @@ proxies:
   - {"name":"feng6_1","type":"vless","server":"104.21.228.181","port":8080,"uuid":"89c21153-67d9-4505-a25c-cef293500eb8","tls":false,"servername":"feng6.4m-bq2ce.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng6.4m-bq2ce.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"feng6_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"89c21153-67d9-4505-a25c-cef293500eb8","tls":false,"servername":"feng6.4m-bq2ce.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng6.4m-bq2ce.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"feng6_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"89c21153-67d9-4505-a25c-cef293500eb8","tls":false,"servername":"feng6.4m-bq2ce.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng6.4m-bq2ce.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"king1980（HK）.b91sptsl.workers.dev_1","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"9e67f15c-178f-494c-a843-f371e3b3fa5d","tls":false,"servername":"king1980.b91sptsl.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"king1980.b91sptsl.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"king1980（HK）.b91sptsl.workers.dev_2","type":"vless","server":"104.21.228.181","port":8080,"uuid":"9e67f15c-178f-494c-a843-f371e3b3fa5d","tls":false,"servername":"king1980.b91sptsl.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"king1980.b91sptsl.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"king1980（HK）.b91sptsl.workers.dev_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"9e67f15c-178f-494c-a843-f371e3b3fa5d","tls":false,"servername":"king1980.b91sptsl.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"king1980.b91sptsl.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"king1980（JP）.50fo8itj.workers.dev_1","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"ecd404a2-70b2-4e89-8339-89536cdfae52","tls":false,"servername":"king1980us.50fo8itj.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"king1980us.50fo8itj.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"king1980（JP）.50fo8itj.workers.dev_2","type":"vless","server":"104.21.228.181","port":8080,"uuid":"ecd404a2-70b2-4e89-8339-89536cdfae52","tls":false,"servername":"king1980us.50fo8itj.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"king1980us.50fo8itj.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"king1980（JP）.50fo8itj.workers.dev_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"ecd404a2-70b2-4e89-8339-89536cdfae52","tls":false,"servername":"king1980us.50fo8itj.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"king1980us.50fo8itj.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"备1_1","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"464d644c-9c10-4c02-9117-4c75b0c347cd","tls":false,"servername":"wwwvisacomsg.mshcgb8q.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"wwwvisacomsg.mshcgb8q.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"备1_2","type":"vless","server":"104.21.228.181","port":8080,"uuid":"464d644c-9c10-4c02-9117-4c75b0c347cd","tls":false,"servername":"wwwvisacomsg.mshcgb8q.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"wwwvisacomsg.mshcgb8q.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"备1_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"464d644c-9c10-4c02-9117-4c75b0c347cd","tls":false,"servername":"wwwvisacomsg.mshcgb8q.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"wwwvisacomsg.mshcgb8q.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"备2_1","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"b6cea380-cc8c-4e33-ab32-fc4d284ab5db","tls":false,"servername":"bei2.8l-0dfay.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bei2.8l-0dfay.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"备2_2","type":"vless","server":"104.21.228.181","port":8080,"uuid":"b6cea380-cc8c-4e33-ab32-fc4d284ab5db","tls":false,"servername":"bei2.8l-0dfay.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bei2.8l-0dfay.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"备2_3","type":"vless","server":"www.visa.com.tw","port":8080,"uuid":"b6cea380-cc8c-4e33-ab32-fc4d284ab5db","tls":false,"servername":"bei2.8l-0dfay.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bei2.8l-0dfay.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"HUI","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"65e36189-2782-49ce-8c0c-98ae7cb99309","tls":false,"servername":"hui.t2oger1f.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hui.t2oger1f.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sheng1","type":"vless","server":"104.18.163.116","port":80,"uuid":"41ededdc-5d00-4bfe-82a6-fd74cf2cab70","tls":false,"servername":"sheng1.6664p5as.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sheng1.6664p5as.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sheng2","type":"vless","server":"104.18.163.116","port":80,"uuid":"44d9a3f3-93cb-463f-8b28-c7cb79ab734a","tls":false,"servername":"sheng2.fr3gotfr.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sheng2.fr3gotfr.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"shengyidong1","type":"vless","server":"162.159.247.203","port":80,"uuid":"68f77296-3784-471f-9f88-741e2a5ae007","tls":false,"servername":"shengyidong1.4u7d4kzn.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shengyidong1.4u7d4kzn.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"shengyidong2","type":"vless","server":"104.18.163.116","port":80,"uuid":"e5699edf-96e5-448a-954c-343f6fae0c62","tls":false,"servername":"shengyidong2.k-ak818b.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shengyidong2.k-ak818b.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 201.58vtg99l.workers.dev_1
-      - 201.58vtg99l.workers.dev_2
-      - 201.58vtg99l.workers.dev_3
-      - 302.j4tccyw7.workers.dev_1
-      - 302.j4tccyw7.workers.dev_2
-      - 302.j4tccyw7.workers.dev_3
-      - 901.dbodanwi.workers.dev_1
-      - 901.dbodanwi.workers.dev_2
-      - 901.dbodanwi.workers.dev_3
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_1
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_2
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_3
-      - cdnanycasteuorg.fjacz6xe.workers.dev_1
-      - cdnanycasteuorg.fjacz6xe.workers.dev_2
-      - cdnanycasteuorg.fjacz6xe.workers.dev_3
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_1
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_2
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_3
+      - shuige1_1
+      - shuige2_1
+      - shuige3_1
+      - shuige1_2
+      - shuige2_2
+      - shuige3_2
+      - shuige1_3
+      - shuige2_3
+      - shuige3_3
       - feng1_1
       - feng1_2
       - feng1_3
@@ -176,42 +151,26 @@ proxy-groups:
       - feng6_1
       - feng6_2
       - feng6_3
-      - king1980（HK）.b91sptsl.workers.dev_1
-      - king1980（HK）.b91sptsl.workers.dev_2
-      - king1980（HK）.b91sptsl.workers.dev_3
-      - king1980（JP）.50fo8itj.workers.dev_1
-      - king1980（JP）.50fo8itj.workers.dev_2
-      - king1980（JP）.50fo8itj.workers.dev_3
-      - 备1_1
-      - 备1_2
-      - 备1_3
-      - 备2_1
-      - 备2_2
-      - 备2_3
+      - HUI
+      - sheng1
+      - sheng2
+      - shengyidong1
+      - shengyidong2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 201.58vtg99l.workers.dev_1
-      - 201.58vtg99l.workers.dev_2
-      - 201.58vtg99l.workers.dev_3
-      - 302.j4tccyw7.workers.dev_1
-      - 302.j4tccyw7.workers.dev_2
-      - 302.j4tccyw7.workers.dev_3
-      - 901.dbodanwi.workers.dev_1
-      - 901.dbodanwi.workers.dev_2
-      - 901.dbodanwi.workers.dev_3
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_1
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_2
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_3
-      - cdnanycasteuorg.fjacz6xe.workers.dev_1
-      - cdnanycasteuorg.fjacz6xe.workers.dev_2
-      - cdnanycasteuorg.fjacz6xe.workers.dev_3
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_1
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_2
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_3
+      - shuige1_1
+      - shuige2_1
+      - shuige3_1
+      - shuige1_2
+      - shuige2_2
+      - shuige3_2
+      - shuige1_3
+      - shuige2_3
+      - shuige3_3
       - feng1_1
       - feng1_2
       - feng1_3
@@ -230,42 +189,26 @@ proxy-groups:
       - feng6_1
       - feng6_2
       - feng6_3
-      - king1980（HK）.b91sptsl.workers.dev_1
-      - king1980（HK）.b91sptsl.workers.dev_2
-      - king1980（HK）.b91sptsl.workers.dev_3
-      - king1980（JP）.50fo8itj.workers.dev_1
-      - king1980（JP）.50fo8itj.workers.dev_2
-      - king1980（JP）.50fo8itj.workers.dev_3
-      - 备1_1
-      - 备1_2
-      - 备1_3
-      - 备2_1
-      - 备2_2
-      - 备2_3
+      - HUI
+      - sheng1
+      - sheng2
+      - shengyidong1
+      - shengyidong2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 201.58vtg99l.workers.dev_1
-      - 201.58vtg99l.workers.dev_2
-      - 201.58vtg99l.workers.dev_3
-      - 302.j4tccyw7.workers.dev_1
-      - 302.j4tccyw7.workers.dev_2
-      - 302.j4tccyw7.workers.dev_3
-      - 901.dbodanwi.workers.dev_1
-      - 901.dbodanwi.workers.dev_2
-      - 901.dbodanwi.workers.dev_3
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_1
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_2
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_3
-      - cdnanycasteuorg.fjacz6xe.workers.dev_1
-      - cdnanycasteuorg.fjacz6xe.workers.dev_2
-      - cdnanycasteuorg.fjacz6xe.workers.dev_3
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_1
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_2
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_3
+      - shuige1_1
+      - shuige2_1
+      - shuige3_1
+      - shuige1_2
+      - shuige2_2
+      - shuige3_2
+      - shuige1_3
+      - shuige2_3
+      - shuige3_3
       - feng1_1
       - feng1_2
       - feng1_3
@@ -284,41 +227,25 @@ proxy-groups:
       - feng6_1
       - feng6_2
       - feng6_3
-      - king1980（HK）.b91sptsl.workers.dev_1
-      - king1980（HK）.b91sptsl.workers.dev_2
-      - king1980（HK）.b91sptsl.workers.dev_3
-      - king1980（JP）.50fo8itj.workers.dev_1
-      - king1980（JP）.50fo8itj.workers.dev_2
-      - king1980（JP）.50fo8itj.workers.dev_3
-      - 备1_1
-      - 备1_2
-      - 备1_3
-      - 备2_1
-      - 备2_2
-      - 备2_3
+      - HUI
+      - sheng1
+      - sheng2
+      - shengyidong1
+      - shengyidong2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 201.58vtg99l.workers.dev_1
-      - 201.58vtg99l.workers.dev_2
-      - 201.58vtg99l.workers.dev_3
-      - 302.j4tccyw7.workers.dev_1
-      - 302.j4tccyw7.workers.dev_2
-      - 302.j4tccyw7.workers.dev_3
-      - 901.dbodanwi.workers.dev_1
-      - 901.dbodanwi.workers.dev_2
-      - 901.dbodanwi.workers.dev_3
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_1
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_2
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_3
-      - cdnanycasteuorg.fjacz6xe.workers.dev_1
-      - cdnanycasteuorg.fjacz6xe.workers.dev_2
-      - cdnanycasteuorg.fjacz6xe.workers.dev_3
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_1
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_2
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_3
+      - shuige1_1
+      - shuige2_1
+      - shuige3_1
+      - shuige1_2
+      - shuige2_2
+      - shuige3_2
+      - shuige1_3
+      - shuige2_3
+      - shuige3_3
       - feng1_1
       - feng1_2
       - feng1_3
@@ -337,41 +264,25 @@ proxy-groups:
       - feng6_1
       - feng6_2
       - feng6_3
-      - king1980（HK）.b91sptsl.workers.dev_1
-      - king1980（HK）.b91sptsl.workers.dev_2
-      - king1980（HK）.b91sptsl.workers.dev_3
-      - king1980（JP）.50fo8itj.workers.dev_1
-      - king1980（JP）.50fo8itj.workers.dev_2
-      - king1980（JP）.50fo8itj.workers.dev_3
-      - 备1_1
-      - 备1_2
-      - 备1_3
-      - 备2_1
-      - 备2_2
-      - 备2_3
+      - HUI
+      - sheng1
+      - sheng2
+      - shengyidong1
+      - shengyidong2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 201.58vtg99l.workers.dev_1
-      - 201.58vtg99l.workers.dev_2
-      - 201.58vtg99l.workers.dev_3
-      - 302.j4tccyw7.workers.dev_1
-      - 302.j4tccyw7.workers.dev_2
-      - 302.j4tccyw7.workers.dev_3
-      - 901.dbodanwi.workers.dev_1
-      - 901.dbodanwi.workers.dev_2
-      - 901.dbodanwi.workers.dev_3
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_1
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_2
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_3
-      - cdnanycasteuorg.fjacz6xe.workers.dev_1
-      - cdnanycasteuorg.fjacz6xe.workers.dev_2
-      - cdnanycasteuorg.fjacz6xe.workers.dev_3
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_1
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_2
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_3
+      - shuige1_1
+      - shuige2_1
+      - shuige3_1
+      - shuige1_2
+      - shuige2_2
+      - shuige3_2
+      - shuige1_3
+      - shuige2_3
+      - shuige3_3
       - feng1_1
       - feng1_2
       - feng1_3
@@ -390,41 +301,25 @@ proxy-groups:
       - feng6_1
       - feng6_2
       - feng6_3
-      - king1980（HK）.b91sptsl.workers.dev_1
-      - king1980（HK）.b91sptsl.workers.dev_2
-      - king1980（HK）.b91sptsl.workers.dev_3
-      - king1980（JP）.50fo8itj.workers.dev_1
-      - king1980（JP）.50fo8itj.workers.dev_2
-      - king1980（JP）.50fo8itj.workers.dev_3
-      - 备1_1
-      - 备1_2
-      - 备1_3
-      - 备2_1
-      - 备2_2
-      - 备2_3
+      - HUI
+      - sheng1
+      - sheng2
+      - shengyidong1
+      - shengyidong2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 201.58vtg99l.workers.dev_1
-      - 201.58vtg99l.workers.dev_2
-      - 201.58vtg99l.workers.dev_3
-      - 302.j4tccyw7.workers.dev_1
-      - 302.j4tccyw7.workers.dev_2
-      - 302.j4tccyw7.workers.dev_3
-      - 901.dbodanwi.workers.dev_1
-      - 901.dbodanwi.workers.dev_2
-      - 901.dbodanwi.workers.dev_3
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_1
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_2
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_3
-      - cdnanycasteuorg.fjacz6xe.workers.dev_1
-      - cdnanycasteuorg.fjacz6xe.workers.dev_2
-      - cdnanycasteuorg.fjacz6xe.workers.dev_3
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_1
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_2
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_3
+      - shuige1_1
+      - shuige2_1
+      - shuige3_1
+      - shuige1_2
+      - shuige2_2
+      - shuige3_2
+      - shuige1_3
+      - shuige2_3
+      - shuige3_3
       - feng1_1
       - feng1_2
       - feng1_3
@@ -443,18 +338,11 @@ proxy-groups:
       - feng6_1
       - feng6_2
       - feng6_3
-      - king1980（HK）.b91sptsl.workers.dev_1
-      - king1980（HK）.b91sptsl.workers.dev_2
-      - king1980（HK）.b91sptsl.workers.dev_3
-      - king1980（JP）.50fo8itj.workers.dev_1
-      - king1980（JP）.50fo8itj.workers.dev_2
-      - king1980（JP）.50fo8itj.workers.dev_3
-      - 备1_1
-      - 备1_2
-      - 备1_3
-      - 备2_1
-      - 备2_2
-      - 备2_3
+      - HUI
+      - sheng1
+      - sheng2
+      - shengyidong1
+      - shengyidong2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -477,24 +365,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 201.58vtg99l.workers.dev_1
-      - 201.58vtg99l.workers.dev_2
-      - 201.58vtg99l.workers.dev_3
-      - 302.j4tccyw7.workers.dev_1
-      - 302.j4tccyw7.workers.dev_2
-      - 302.j4tccyw7.workers.dev_3
-      - 901.dbodanwi.workers.dev_1
-      - 901.dbodanwi.workers.dev_2
-      - 901.dbodanwi.workers.dev_3
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_1
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_2
-      - cdn-allxn--b6gaceuorg.l4o117en.workers.dev_3
-      - cdnanycasteuorg.fjacz6xe.workers.dev_1
-      - cdnanycasteuorg.fjacz6xe.workers.dev_2
-      - cdnanycasteuorg.fjacz6xe.workers.dev_3
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_1
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_2
-      - cdn-b100xn--b6gaceuorg.gk8k8s95.workers.dev_3
+      - shuige1_1
+      - shuige2_1
+      - shuige3_1
+      - shuige1_2
+      - shuige2_2
+      - shuige3_2
+      - shuige1_3
+      - shuige2_3
+      - shuige3_3
       - feng1_1
       - feng1_2
       - feng1_3
@@ -513,18 +392,11 @@ proxy-groups:
       - feng6_1
       - feng6_2
       - feng6_3
-      - king1980（HK）.b91sptsl.workers.dev_1
-      - king1980（HK）.b91sptsl.workers.dev_2
-      - king1980（HK）.b91sptsl.workers.dev_3
-      - king1980（JP）.50fo8itj.workers.dev_1
-      - king1980（JP）.50fo8itj.workers.dev_2
-      - king1980（JP）.50fo8itj.workers.dev_3
-      - 备1_1
-      - 备1_2
-      - 备1_3
-      - 备2_1
-      - 备2_2
-      - 备2_3
+      - HUI
+      - sheng1
+      - sheng2
+      - shengyidong1
+      - shengyidong2
 
 rules:
 # 本地/局域网地址
