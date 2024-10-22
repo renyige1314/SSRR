@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-10-22 22:15:00
+# 创建时间：2024-10-22 23:30:32
 # 使用模版：V2RaySE 默认模版
-# 节点数量：24
+# 节点数量：9
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,207 +86,102 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"feng2_1","type":"vless","server":"ip.sb","port":8080,"uuid":"77f2d54c-f1bd-46ff-af4c-cc44c72fd25e","tls":false,"servername":"feng2.vfl83lnn.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng2.vfl83lnn.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng1_1","type":"vless","server":"ip.sb","port":8080,"uuid":"046da250-d5ef-4867-9095-302477d54d20","tls":false,"servername":"feng.ipy29c99.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng.ipy29c99.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng3_1","type":"vless","server":"ip.sb","port":8080,"uuid":"318c375c-1f29-4b30-8875-2c4c54d7c38d","tls":false,"servername":"feng3.2n7y5pja.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng3.2n7y5pja.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng4_1","type":"vless","server":"ip.sb","port":8080,"uuid":"d6ff33a6-03bf-4338-8a63-62ab284a9466","tls":false,"servername":"feng4.l1ut8bi9.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng4.l1ut8bi9.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng5_1","type":"vless","server":"ip.sb","port":8080,"uuid":"365de7de-77b2-4a62-aec3-66a6bd41813e","tls":false,"servername":"feng5.ogazo8c3.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng5.ogazo8c3.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng6_1","type":"vless","server":"ip.sb","port":8080,"uuid":"89c21153-67d9-4505-a25c-cef293500eb8","tls":false,"servername":"feng6.4m-bq2ce.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng6.4m-bq2ce.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"shuige1_1","type":"vless","server":"ip.sb","port":8080,"uuid":"6d1628cb-2fa9-4f6f-82f8-d0896b27b165","tls":false,"servername":"shuige1.g-y0fale.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige1.g-y0fale.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"shuige2_1","type":"vless","server":"ip.sb","port":8080,"uuid":"99678074-122c-46db-97fc-80b604c20158","tls":false,"servername":"shuige2.ywfmu-qx.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige2.ywfmu-qx.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"shuige3_1","type":"vless","server":"ip.sb","port":8080,"uuid":"3f9d3b52-1bcc-499f-aad0-ba71d6123f8b","tls":false,"servername":"shuige3.cbj2bxt6.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige3.cbj2bxt6.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"ping01.zsnm-jbb.workers.dev_1","type":"vless","server":"ip.sb","port":8080,"uuid":"8a3d7159-bd93-4d0b-b8cd-352bbc68d2e4","tls":false,"servername":"ping01.zsnm-jbb.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ping01.zsnm-jbb.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"ping02.aqw88bu0.workers.dev_1","type":"vless","server":"ip.sb","port":8080,"uuid":"bf814c51-f6cf-433e-8764-e8510ce3ba5f","tls":false,"servername":"ping02.aqw88bu0.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ping02.aqw88bu0.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"ping03.5gl3es6k.workers.dev_1","type":"vless","server":"ip.sb","port":8080,"uuid":"38ad209a-0ccf-41ff-82bd-f86510eeb9b2","tls":false,"servername":"ping03.5gl3es6k.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ping03.5gl3es6k.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng2_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"77f2d54c-f1bd-46ff-af4c-cc44c72fd25e","tls":false,"servername":"feng2.vfl83lnn.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng2.vfl83lnn.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng1_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"046da250-d5ef-4867-9095-302477d54d20","tls":false,"servername":"feng.ipy29c99.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng.ipy29c99.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng3_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"318c375c-1f29-4b30-8875-2c4c54d7c38d","tls":false,"servername":"feng3.2n7y5pja.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng3.2n7y5pja.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng4_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"d6ff33a6-03bf-4338-8a63-62ab284a9466","tls":false,"servername":"feng4.l1ut8bi9.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng4.l1ut8bi9.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng5_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"365de7de-77b2-4a62-aec3-66a6bd41813e","tls":false,"servername":"feng5.ogazo8c3.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng5.ogazo8c3.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"feng6_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"89c21153-67d9-4505-a25c-cef293500eb8","tls":false,"servername":"feng6.4m-bq2ce.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng6.4m-bq2ce.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"shuige1_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"6d1628cb-2fa9-4f6f-82f8-d0896b27b165","tls":false,"servername":"shuige1.g-y0fale.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige1.g-y0fale.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"shuige2_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"99678074-122c-46db-97fc-80b604c20158","tls":false,"servername":"shuige2.ywfmu-qx.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige2.ywfmu-qx.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"shuige3_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"3f9d3b52-1bcc-499f-aad0-ba71d6123f8b","tls":false,"servername":"shuige3.cbj2bxt6.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige3.cbj2bxt6.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"ping01.zsnm-jbb.workers.dev_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"8a3d7159-bd93-4d0b-b8cd-352bbc68d2e4","tls":false,"servername":"ping01.zsnm-jbb.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ping01.zsnm-jbb.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"ping02.aqw88bu0.workers.dev_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"bf814c51-f6cf-433e-8764-e8510ce3ba5f","tls":false,"servername":"ping02.aqw88bu0.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ping02.aqw88bu0.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"ping03.5gl3es6k.workers.dev_2","type":"vless","server":"www.visa.com.sg","port":8080,"uuid":"38ad209a-0ccf-41ff-82bd-f86510eeb9b2","tls":false,"servername":"ping03.5gl3es6k.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ping03.5gl3es6k.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"feng3","type":"vless","server":"ip.sb","port":8080,"uuid":"318c375c-1f29-4b30-8875-2c4c54d7c38d","tls":false,"servername":"feng3.2n7y5pja.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng3.2n7y5pja.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"feng2","type":"vless","server":"ip.sb","port":8080,"uuid":"77f2d54c-f1bd-46ff-af4c-cc44c72fd25e","tls":false,"servername":"feng2.vfl83lnn.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng2.vfl83lnn.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"feng1","type":"vless","server":"ip.sb","port":8080,"uuid":"046da250-d5ef-4867-9095-302477d54d20","tls":false,"servername":"feng.ipy29c99.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng.ipy29c99.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"feng4","type":"vless","server":"ip.sb","port":8080,"uuid":"d6ff33a6-03bf-4338-8a63-62ab284a9466","tls":false,"servername":"feng4.l1ut8bi9.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng4.l1ut8bi9.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"feng5","type":"vless","server":"ip.sb","port":8080,"uuid":"365de7de-77b2-4a62-aec3-66a6bd41813e","tls":false,"servername":"feng5.ogazo8c3.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng5.ogazo8c3.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"feng6","type":"vless","server":"ip.sb","port":8080,"uuid":"89c21153-67d9-4505-a25c-cef293500eb8","tls":false,"servername":"feng6.4m-bq2ce.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"feng6.4m-bq2ce.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"ping01.zsnm-jbb.workers.dev","type":"vless","server":"ip.sb","port":8080,"uuid":"8a3d7159-bd93-4d0b-b8cd-352bbc68d2e4","tls":false,"servername":"ping01.zsnm-jbb.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ping01.zsnm-jbb.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"ping02.aqw88bu0.workers.dev","type":"vless","server":"ip.sb","port":8080,"uuid":"bf814c51-f6cf-433e-8764-e8510ce3ba5f","tls":false,"servername":"ping02.aqw88bu0.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ping02.aqw88bu0.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"ping03.5gl3es6k.workers.dev","type":"vless","server":"ip.sb","port":8080,"uuid":"38ad209a-0ccf-41ff-82bd-f86510eeb9b2","tls":false,"servername":"ping03.5gl3es6k.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ping03.5gl3es6k.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - feng2_1
-      - feng1_1
-      - feng3_1
-      - feng4_1
-      - feng5_1
-      - feng6_1
-      - shuige1_1
-      - shuige2_1
-      - shuige3_1
-      - ping01.zsnm-jbb.workers.dev_1
-      - ping02.aqw88bu0.workers.dev_1
-      - ping03.5gl3es6k.workers.dev_1
-      - feng2_2
-      - feng1_2
-      - feng3_2
-      - feng4_2
-      - feng5_2
-      - feng6_2
-      - shuige1_2
-      - shuige2_2
-      - shuige3_2
-      - ping01.zsnm-jbb.workers.dev_2
-      - ping02.aqw88bu0.workers.dev_2
-      - ping03.5gl3es6k.workers.dev_2
+      - feng3
+      - feng2
+      - feng1
+      - feng4
+      - feng5
+      - feng6
+      - ping01.zsnm-jbb.workers.dev
+      - ping02.aqw88bu0.workers.dev
+      - ping03.5gl3es6k.workers.dev
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - feng2_1
-      - feng1_1
-      - feng3_1
-      - feng4_1
-      - feng5_1
-      - feng6_1
-      - shuige1_1
-      - shuige2_1
-      - shuige3_1
-      - ping01.zsnm-jbb.workers.dev_1
-      - ping02.aqw88bu0.workers.dev_1
-      - ping03.5gl3es6k.workers.dev_1
-      - feng2_2
-      - feng1_2
-      - feng3_2
-      - feng4_2
-      - feng5_2
-      - feng6_2
-      - shuige1_2
-      - shuige2_2
-      - shuige3_2
-      - ping01.zsnm-jbb.workers.dev_2
-      - ping02.aqw88bu0.workers.dev_2
-      - ping03.5gl3es6k.workers.dev_2
+      - feng3
+      - feng2
+      - feng1
+      - feng4
+      - feng5
+      - feng6
+      - ping01.zsnm-jbb.workers.dev
+      - ping02.aqw88bu0.workers.dev
+      - ping03.5gl3es6k.workers.dev
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - feng2_1
-      - feng1_1
-      - feng3_1
-      - feng4_1
-      - feng5_1
-      - feng6_1
-      - shuige1_1
-      - shuige2_1
-      - shuige3_1
-      - ping01.zsnm-jbb.workers.dev_1
-      - ping02.aqw88bu0.workers.dev_1
-      - ping03.5gl3es6k.workers.dev_1
-      - feng2_2
-      - feng1_2
-      - feng3_2
-      - feng4_2
-      - feng5_2
-      - feng6_2
-      - shuige1_2
-      - shuige2_2
-      - shuige3_2
-      - ping01.zsnm-jbb.workers.dev_2
-      - ping02.aqw88bu0.workers.dev_2
-      - ping03.5gl3es6k.workers.dev_2
+      - feng3
+      - feng2
+      - feng1
+      - feng4
+      - feng5
+      - feng6
+      - ping01.zsnm-jbb.workers.dev
+      - ping02.aqw88bu0.workers.dev
+      - ping03.5gl3es6k.workers.dev
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - feng2_1
-      - feng1_1
-      - feng3_1
-      - feng4_1
-      - feng5_1
-      - feng6_1
-      - shuige1_1
-      - shuige2_1
-      - shuige3_1
-      - ping01.zsnm-jbb.workers.dev_1
-      - ping02.aqw88bu0.workers.dev_1
-      - ping03.5gl3es6k.workers.dev_1
-      - feng2_2
-      - feng1_2
-      - feng3_2
-      - feng4_2
-      - feng5_2
-      - feng6_2
-      - shuige1_2
-      - shuige2_2
-      - shuige3_2
-      - ping01.zsnm-jbb.workers.dev_2
-      - ping02.aqw88bu0.workers.dev_2
-      - ping03.5gl3es6k.workers.dev_2
+      - feng3
+      - feng2
+      - feng1
+      - feng4
+      - feng5
+      - feng6
+      - ping01.zsnm-jbb.workers.dev
+      - ping02.aqw88bu0.workers.dev
+      - ping03.5gl3es6k.workers.dev
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - feng2_1
-      - feng1_1
-      - feng3_1
-      - feng4_1
-      - feng5_1
-      - feng6_1
-      - shuige1_1
-      - shuige2_1
-      - shuige3_1
-      - ping01.zsnm-jbb.workers.dev_1
-      - ping02.aqw88bu0.workers.dev_1
-      - ping03.5gl3es6k.workers.dev_1
-      - feng2_2
-      - feng1_2
-      - feng3_2
-      - feng4_2
-      - feng5_2
-      - feng6_2
-      - shuige1_2
-      - shuige2_2
-      - shuige3_2
-      - ping01.zsnm-jbb.workers.dev_2
-      - ping02.aqw88bu0.workers.dev_2
-      - ping03.5gl3es6k.workers.dev_2
+      - feng3
+      - feng2
+      - feng1
+      - feng4
+      - feng5
+      - feng6
+      - ping01.zsnm-jbb.workers.dev
+      - ping02.aqw88bu0.workers.dev
+      - ping03.5gl3es6k.workers.dev
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - feng2_1
-      - feng1_1
-      - feng3_1
-      - feng4_1
-      - feng5_1
-      - feng6_1
-      - shuige1_1
-      - shuige2_1
-      - shuige3_1
-      - ping01.zsnm-jbb.workers.dev_1
-      - ping02.aqw88bu0.workers.dev_1
-      - ping03.5gl3es6k.workers.dev_1
-      - feng2_2
-      - feng1_2
-      - feng3_2
-      - feng4_2
-      - feng5_2
-      - feng6_2
-      - shuige1_2
-      - shuige2_2
-      - shuige3_2
-      - ping01.zsnm-jbb.workers.dev_2
-      - ping02.aqw88bu0.workers.dev_2
-      - ping03.5gl3es6k.workers.dev_2
+      - feng3
+      - feng2
+      - feng1
+      - feng4
+      - feng5
+      - feng6
+      - ping01.zsnm-jbb.workers.dev
+      - ping02.aqw88bu0.workers.dev
+      - ping03.5gl3es6k.workers.dev
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -309,30 +204,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - feng2_1
-      - feng1_1
-      - feng3_1
-      - feng4_1
-      - feng5_1
-      - feng6_1
-      - shuige1_1
-      - shuige2_1
-      - shuige3_1
-      - ping01.zsnm-jbb.workers.dev_1
-      - ping02.aqw88bu0.workers.dev_1
-      - ping03.5gl3es6k.workers.dev_1
-      - feng2_2
-      - feng1_2
-      - feng3_2
-      - feng4_2
-      - feng5_2
-      - feng6_2
-      - shuige1_2
-      - shuige2_2
-      - shuige3_2
-      - ping01.zsnm-jbb.workers.dev_2
-      - ping02.aqw88bu0.workers.dev_2
-      - ping03.5gl3es6k.workers.dev_2
+      - feng3
+      - feng2
+      - feng1
+      - feng4
+      - feng5
+      - feng6
+      - ping01.zsnm-jbb.workers.dev
+      - ping02.aqw88bu0.workers.dev
+      - ping03.5gl3es6k.workers.dev
 
 rules:
 # 本地/局域网地址
